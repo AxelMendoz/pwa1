@@ -1,12 +1,18 @@
 // Cambia la versión cuando modifiques archivos para que se actualice la caché
-const CACHE = 'gastos-v4';
+const CACHE = 'gastos-v5';
 
 // Archivos que se guardan para funcionar sin conexión
 const ARCHIVOS = [
   './',
   './index.html',
   './style.css',
-  './app.js',
+  './js/categorias.js',
+  './js/datos.js',
+  './js/aviso.js',
+  './js/pantalla.js',
+  './js/formulario.js',
+  './js/pwa.js',
+  './js/app.js',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
